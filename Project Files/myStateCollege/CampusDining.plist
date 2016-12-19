@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UniversityPark</key>
+	<array>
+		<string>link_dining_commons.png</string>
+		<string>link_dining_commons_hours.png</string>
+		<string>link_findlay_commons_menu.png</string>
+		<string>link_north_food_district_menu.png</string>
+		<string>link_pollock_dining_commons_menu.png</string>
+		<string>link_south_food_district_menu.png</string>
+		<string>link_west_food_district_menu.png</string>
+		<string>link_the_mix_menu.png</string>
+		<string>link_hub_dining.png</string>
+		<string>link_au_bon_pain_cafe.png</string>
+		<string>link_blue_chip_bistro.png</string>
+		<string>link_cafe_laura.png</string>
+		<string>link_berkey_creamery.png</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UniversityPark</key>
+	<array>
+		<string>link_event_calendars.png</string>
+		<string>link_student_programming_association.png</string>
+		<string>link_center_for_the_performing_arts_events.png</string>
+		<string>link_bryce_jordan_center_events.png</string>
+		<string>link_thon</string>
+		<string>link_campus_news.png</string>
+		<string>link_penn_state_news.png</string>
+		<string>link_onward_state.png</string>
+		<string>link_the_daily_collegian.png</string>
+		<string>link_campus_weather.png</string>
+	</array>
+</dict>
+</plist>

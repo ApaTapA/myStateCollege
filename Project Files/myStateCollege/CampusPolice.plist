@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UniversityPark</key>
+	<array>
+		<string>link_police.png</string>
+		<string>link_call_police_emergency_line.png</string>
+		<string>link_call_police_general_line.png</string>
+		<string>link_report_a_crime.png</string>
+		<string>link_campus_services.png</string>
+		<string>link_emergency_telephones.png</string>
+		<string>link_emergency_info.png</string>
+	</array>
+</dict>
+</plist>

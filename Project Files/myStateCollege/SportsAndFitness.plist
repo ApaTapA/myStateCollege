@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UniversityPark</key>
+	<array>
+		<string>link_ticket_exchange.png</string>
+		<string>link_psu_sports.png</string>
+		<string>link_schedules.png</string>
+		<string>link_strength_and_fitness.png</string>
+		<string>link_gym_capacities.png</string>
+		<string>link_fitness_classes.png</string>
+		<string>link_club_sports.png</string>
+		<string>link_intramurals.png</string>
+	</array>
+</dict>
+</plist>

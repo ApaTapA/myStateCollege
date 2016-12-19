@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UniversityPark</key>
+	<array>
+		<string>link_cata_bus_title.png</string>
+		<string>link_cata_bus.png</string>
+		<string>link_cata_bus_system_map.png</string>
+		<string>link_cata_bus_schedules_title.png</string>
+		<string>link_blue_loop.png</string>
+		<string>link_white_loop.png</string>
+		<string>link_green_link.png</string>
+		<string>link_red_link.png</string>
+		<string>link_park_forest_village_a.png</string>
+		<string>link_boalsburg_b.png</string>
+		<string>link_houserville_c.png</string>
+		<string>link_pine_grove_f.png</string>
+		<string>link_stormstown_g.png</string>
+		<string>link_toftrees_scenery_park_hp.png</string>
+		<string>link_cato_park_k.png</string>
+		<string>link_nittany_mall_m.png</string>
+		<string>link_martin_street_aaron_drive_n.png</string>
+		<string>link_martin_aaron_express_ne.png</string>
+		<string>link_martin_vairo_toftrees_nv.png</string>
+		<string>link_waupelani_drive_r.png</string>
+		<string>link_waupelani_campus_rc.png</string>
+		<string>link_waupelani_downtown_rp.png</string>
+		<string>link_science_park_s.png</string>
+		<string>link_university_terrace_ut.png</string>
+		<string>link_vairo_blvd_v.png</string>
+		<string>link_vairo_blvd_express_ve.png</string>
+		<string>link_toftrees_vairo_martin_vn.png</string>
+		<string>link_valley_vista_w.png</string>
+		<string>link_havershire_blvd_express_we.png</string>
+		<string>link_bellefonte_xb.png</string>
+		<string>link_pleasant_gap_xg.png</string>
+		<string>link_game_day_football_shuttle.png</string>
+		<string>link_student_parking_title.png</string>
+		<string>link_vehicle_registration.png</string>
+		<string>link_resident_student_permits.png</string>
+		<string>link_off_campus_student_permits.png</string>
+		<string>link_student_parking_regulations.png</string>
+		<string>link_manage_vehicle_information.png</string>
+		<string>link_motorcycle_policy.png</string>
+		<string>link_student_parking_rates.png</string>
+		<string>link_tickets_and_appeals.png</string>
+		<string>link_visitor_parking.png</string>
+		<string>link_call_parking_office.png</string>
+		<string>link_downtown_parking.png</string>
+		<string>link_taxi_services_title.png</string>
+		<string>link_call_aa_taxi_inc.png</string>
+		<string>link_call_happy_valley_ride.png</string>
+		<string>link_call_handy_delivery.png</string>
+	</array>
+</dict>
+</plist>

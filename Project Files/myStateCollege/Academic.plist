@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StateCollege</key>
+	<array>
+		<string>link_angel.png</string>
+		<string>link_canvas.png</string>
+		<string>link_webmail.png</string>
+		<string>link_elion.png</string>
+		<string>link_lionpath.png</string>
+		<string>link_eliving.png</string>
+		<string>link_id_card.png</string>
+		<string>link_box.png</string>
+		<string>link_schedule_of_courses.png</string>
+		<string>link_academic_calendar.png</string>
+		<string>link_psu.png</string>
+		<string>link_world_campus.png</string>
+		<string>link_library_hours.png</string>
+		<string>link_library_databases.png</string>
+		<string>link_my_library_account.png</string>
+		<string>link_computer_availability.png</string>
+		<string>link_print.png</string>
+		<string>link_academic_advising.png</string>
+		<string>link_career_services.png</string>
+		<string>link_testing_center.png</string>
+		<string>link_directory.png</string>
+		<string>link_student_tutors.png</string>
+		<string>link_psu_know_how.png</string>
+		<string>link_lion_tutors.png</string>
+	</array>
+</dict>
+</plist>

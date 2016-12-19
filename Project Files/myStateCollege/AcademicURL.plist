@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UniversityPark</key>
+	<array>
+		<string>https://firebasestorage.googleapis.com/v0/b/project-2429635295109282119.appspot.com/o/link_button_images%2Flink_angel.png?alt=media&amp;token=10c5364d-e73a-436d-9cfb-9e0bf58d6bea</string>
+		<string>https://firebasestorage.googleapis.com/v0/b/project-2429635295109282119.appspot.com/o/link_button_images%2Flink_canvas.png?alt=media&amp;token=7eaf7960-dbb0-4732-8fb2-4a0792c5f973</string>
+		<string>https://firebasestorage.googleapis.com/v0/b/project-2429635295109282119.appspot.com/o/link_button_images%2Flink_elion.png?alt=media&amp;token=6e2b54ae-494a-4a21-9574-ffc1bcbafcae</string>
+	</array>
+</dict>
+</plist>
