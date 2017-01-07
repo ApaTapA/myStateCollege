@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5336FA371CA03CAA00CC8848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336FA361CA03CAA00CC8848 /* AppDelegate.swift */; };
+		5336FA391CA03CAA00CC8848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336FA381CA03CAA00CC8848 /* ViewController.swift */; };
+		5336FA6A1CA03CD900CC8848 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336FA641CA03CD900CC8848 /* AdSupport.framework */; };
+		5336FA6B1CA03CD900CC8848 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336FA651CA03CD900CC8848 /* AVFoundation.framework */; };
+		5336FA6C1CA03CD900CC8848 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336FA661CA03CD900CC8848 /* CoreLocation.framework */; };
+		5336FA6D1CA03CD900CC8848 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336FA671CA03CD900CC8848 /* MediaPlayer.framework */; };
+		5336FA6E1CA03CD900CC8848 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336FA681CA03CD900CC8848 /* StoreKit.framework */; };
+		5336FA6F1CA03CD900CC8848 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336FA691CA03CD900CC8848 /* SystemConfiguration.framework */; };
+		53668A2C1CE55F3900D91F8E /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53668A2B1CE55F3900D91F8E /* logo.jpg */; };
+		538404491CEBD647009D18EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 538404481CEBD647009D18EF /* Default-568h@2x.png */; };
+		53C4D6D21CA44BB200FF0D86 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C4D6D11CA44BB200FF0D86 /* RevMobAds.framework */; };
+		53C4D6D41CA44BDB00FF0D86 /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C4D6D31CA44BDB00FF0D86 /* RevMobAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5336FA481CA03CAA00CC8848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5336FA2B1CA03CAA00CC8848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5336FA321CA03CAA00CC8848;
+			remoteInfo = swiftSampleApp;
+		};
+		5336FA531CA03CAA00CC8848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5336FA2B1CA03CAA00CC8848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5336FA321CA03CAA00CC8848;
+			remoteInfo = swiftSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5336FA331CA03CAA00CC8848 /* RevMobAds Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RevMobAds Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5336FA361CA03CAA00CC8848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5336FA381CA03CAA00CC8848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5336FA421CA03CAA00CC8848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5336FA471CA03CAA00CC8848 /* RevMobAds Swift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RevMobAds Swift.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5336FA521CA03CAA00CC8848 /* RevMobAds Swift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RevMobAds Swift.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5336FA641CA03CD900CC8848 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5336FA651CA03CD900CC8848 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5336FA661CA03CD900CC8848 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5336FA671CA03CD900CC8848 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5336FA681CA03CD900CC8848 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5336FA691CA03CD900CC8848 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		53668A2B1CE55F3900D91F8E /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		538404481CEBD647009D18EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		538D73091CA0432B00A18059 /* swiftSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		53C4D6D11CA44BB200FF0D86 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
+		53C4D6D31CA44BDB00FF0D86 /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevMobAds.framework; path = ../RevMobAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5336FA301CA03CAA00CC8848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5336FA6A1CA03CD900CC8848 /* AdSupport.framework in Frameworks */,
+				53C4D6D21CA44BB200FF0D86 /* RevMobAds.framework in Frameworks */,
+				53C4D6D41CA44BDB00FF0D86 /* RevMobAds.framework in Frameworks */,
+				5336FA6B1CA03CD900CC8848 /* AVFoundation.framework in Frameworks */,
+				5336FA6C1CA03CD900CC8848 /* CoreLocation.framework in Frameworks */,
+				5336FA6D1CA03CD900CC8848 /* MediaPlayer.framework in Frameworks */,
+				5336FA6E1CA03CD900CC8848 /* StoreKit.framework in Frameworks */,
+				5336FA6F1CA03CD900CC8848 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5336FA441CA03CAA00CC8848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5336FA4F1CA03CAA00CC8848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5336FA2A1CA03CAA00CC8848 = {
+			isa = PBXGroup;
+			children = (
+				53C4D6D01CA44B9E00FF0D86 /* Frameworks */,
+				5336FA351CA03CAA00CC8848 /* swiftSampleApp */,
+				5336FA341CA03CAA00CC8848 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5336FA341CA03CAA00CC8848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5336FA331CA03CAA00CC8848 /* RevMobAds Swift.app */,
+				5336FA471CA03CAA00CC8848 /* RevMobAds Swift.xctest */,
+				5336FA521CA03CAA00CC8848 /* RevMobAds Swift.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5336FA351CA03CAA00CC8848 /* swiftSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				5336FA361CA03CAA00CC8848 /* AppDelegate.swift */,
+				5336FA381CA03CAA00CC8848 /* ViewController.swift */,
+				53668A2A1CE55E3200D91F8E /* Supporting Files */,
+				538D73091CA0432B00A18059 /* swiftSampleApp-Bridging-Header.h */,
+			);
+			path = swiftSampleApp;
+			sourceTree = "<group>";
+		};
+		53668A2A1CE55E3200D91F8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				538404481CEBD647009D18EF /* Default-568h@2x.png */,
+				5336FA421CA03CAA00CC8848 /* Info.plist */,
+				53668A2B1CE55F3900D91F8E /* logo.jpg */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53C4D6D01CA44B9E00FF0D86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C4D6D31CA44BDB00FF0D86 /* RevMobAds.framework */,
+				53C4D6D11CA44BB200FF0D86 /* RevMobAds.framework */,
+				5336FA641CA03CD900CC8848 /* AdSupport.framework */,
+				5336FA651CA03CD900CC8848 /* AVFoundation.framework */,
+				5336FA661CA03CD900CC8848 /* CoreLocation.framework */,
+				5336FA671CA03CD900CC8848 /* MediaPlayer.framework */,
+				5336FA681CA03CD900CC8848 /* StoreKit.framework */,
+				5336FA691CA03CD900CC8848 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5336FA321CA03CAA00CC8848 /* RevMobAds Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5336FA5B1CA03CAB00CC8848 /* Build configuration list for PBXNativeTarget "RevMobAds Swift" */;
+			buildPhases = (
+				5336FA2F1CA03CAA00CC8848 /* Sources */,
+				5336FA301CA03CAA00CC8848 /* Frameworks */,
+				5336FA311CA03CAA00CC8848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RevMobAds Swift";
+			productName = swiftSampleApp;
+			productReference = 5336FA331CA03CAA00CC8848 /* RevMobAds Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5336FA461CA03CAA00CC8848 /* RevMobAds SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5336FA5E1CA03CAB00CC8848 /* Build configuration list for PBXNativeTarget "RevMobAds SwiftTests" */;
+			buildPhases = (
+				5336FA431CA03CAA00CC8848 /* Sources */,
+				5336FA441CA03CAA00CC8848 /* Frameworks */,
+				5336FA451CA03CAA00CC8848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5336FA491CA03CAA00CC8848 /* PBXTargetDependency */,
+			);
+			name = "RevMobAds SwiftTests";
+			productName = swiftSampleAppTests;
+			productReference = 5336FA471CA03CAA00CC8848 /* RevMobAds Swift.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5336FA511CA03CAA00CC8848 /* RevMobAds SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5336FA611CA03CAB00CC8848 /* Build configuration list for PBXNativeTarget "RevMobAds SwiftUITests" */;
+			buildPhases = (
+				5336FA4E1CA03CAA00CC8848 /* Sources */,
+				5336FA4F1CA03CAA00CC8848 /* Frameworks */,
+				5336FA501CA03CAA00CC8848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5336FA541CA03CAA00CC8848 /* PBXTargetDependency */,
+			);
+			name = "RevMobAds SwiftUITests";
+			productName = swiftSampleAppUITests;
+			productReference = 5336FA521CA03CAA00CC8848 /* RevMobAds Swift.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5336FA2B1CA03CAA00CC8848 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RevMob;
+				TargetAttributes = {
+					5336FA321CA03CAA00CC8848 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5336FA461CA03CAA00CC8848 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5336FA321CA03CAA00CC8848;
+					};
+					5336FA511CA03CAA00CC8848 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5336FA321CA03CAA00CC8848;
+					};
+				};
+			};
+			buildConfigurationList = 5336FA2E1CA03CAA00CC8848 /* Build configuration list for PBXProject "RevMobAds Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5336FA2A1CA03CAA00CC8848;
+			productRefGroup = 5336FA341CA03CAA00CC8848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5336FA321CA03CAA00CC8848 /* RevMobAds Swift */,
+				5336FA461CA03CAA00CC8848 /* RevMobAds SwiftTests */,
+				5336FA511CA03CAA00CC8848 /* RevMobAds SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5336FA311CA03CAA00CC8848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53668A2C1CE55F3900D91F8E /* logo.jpg in Resources */,
+				538404491CEBD647009D18EF /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5336FA451CA03CAA00CC8848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5336FA501CA03CAA00CC8848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5336FA2F1CA03CAA00CC8848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5336FA391CA03CAA00CC8848 /* ViewController.swift in Sources */,
+				5336FA371CA03CAA00CC8848 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5336FA431CA03CAA00CC8848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5336FA4E1CA03CAA00CC8848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5336FA491CA03CAA00CC8848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5336FA321CA03CAA00CC8848 /* RevMobAds Swift */;
+			targetProxy = 5336FA481CA03CAA00CC8848 /* PBXContainerItemProxy */;
+		};
+		5336FA541CA03CAA00CC8848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5336FA321CA03CAA00CC8848 /* RevMobAds Swift */;
+			targetProxy = 5336FA531CA03CAA00CC8848 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5336FA591CA03CAB00CC8848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5336FA5A1CA03CAB00CC8848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5336FA5C1CA03CAB00CC8848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = swiftSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.RevMobAdsSwift;
+				PRODUCT_NAME = "RevMobAds Swift";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftSampleApp/swiftSampleApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5336FA5D1CA03CAB00CC8848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = swiftSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.RevMobAdsSwift;
+				PRODUCT_NAME = "RevMobAds Swift";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftSampleApp/swiftSampleApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5336FA5F1CA03CAB00CC8848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swiftSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eu.best.swiftSampleAppTests;
+				PRODUCT_NAME = "RevMobAds Swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevMobAds Swift.app/RevMobAds Swift";
+			};
+			name = Debug;
+		};
+		5336FA601CA03CAB00CC8848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = swiftSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eu.best.swiftSampleAppTests;
+				PRODUCT_NAME = "RevMobAds Swift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevMobAds Swift.app/RevMobAds Swift";
+			};
+			name = Release;
+		};
+		5336FA621CA03CAB00CC8848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = swiftSampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eu.best.swiftSampleAppUITests;
+				PRODUCT_NAME = "RevMobAds Swift";
+				TEST_TARGET_NAME = swiftSampleApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5336FA631CA03CAB00CC8848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = swiftSampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eu.best.swiftSampleAppUITests;
+				PRODUCT_NAME = "RevMobAds Swift";
+				TEST_TARGET_NAME = swiftSampleApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5336FA2E1CA03CAA00CC8848 /* Build configuration list for PBXProject "RevMobAds Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5336FA591CA03CAB00CC8848 /* Debug */,
+				5336FA5A1CA03CAB00CC8848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5336FA5B1CA03CAB00CC8848 /* Build configuration list for PBXNativeTarget "RevMobAds Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5336FA5C1CA03CAB00CC8848 /* Debug */,
+				5336FA5D1CA03CAB00CC8848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5336FA5E1CA03CAB00CC8848 /* Build configuration list for PBXNativeTarget "RevMobAds SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5336FA5F1CA03CAB00CC8848 /* Debug */,
+				5336FA601CA03CAB00CC8848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5336FA611CA03CAB00CC8848 /* Build configuration list for PBXNativeTarget "RevMobAds SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5336FA621CA03CAB00CC8848 /* Debug */,
+				5336FA631CA03CAB00CC8848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5336FA2B1CA03CAA00CC8848 /* Project object */;
+}
