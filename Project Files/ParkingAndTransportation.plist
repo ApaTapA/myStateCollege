@@ -4,7 +4,7 @@
 <dict>
 	<key>UniversityPark</key>
 	<array>
-		<string>link_cata_bus_title.png</string>
+		<string></string>
 		<string>link_cata_bus.png</string>
 		<string>link_cata_bus_system_map.png</string>
 		<string>link_cata_bus_schedules_title.png</string>
@@ -36,11 +36,11 @@
 		<string>link_bellefonte_xb.png</string>
 		<string>link_pleasant_gap_xg.png</string>
 		<string>link_game_day_football_shuttle.png</string>
-		<string>link_student_parking_title.png</string>
-		<string>link_vehicle_registration.png</string>
+		<string></string>
+		<string></string>
 		<string>link_resident_student_permits.png</string>
 		<string>link_off_campus_student_permits.png</string>
-		<string>link_student_parking_regulations.png</string>
+		<string></string>
 		<string>link_manage_vehicle_information.png</string>
 		<string>link_motorcycle_policy.png</string>
 		<string>link_student_parking_rates.png</string>
@@ -48,7 +48,7 @@
 		<string>link_visitor_parking.png</string>
 		<string>link_call_parking_office.png</string>
 		<string>link_downtown_parking.png</string>
-		<string>link_taxi_services_title.png</string>
+		<string></string>
 		<string>link_call_aa_taxi_inc.png</string>
 		<string>link_call_happy_valley_ride.png</string>
 		<string>link_call_handy_delivery.png</string>
